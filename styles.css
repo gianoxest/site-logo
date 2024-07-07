@@ -1,0 +1,80 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #1e1e1e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    flex: 1;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.logo-section {
+    margin: 40px 0;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 10em;
+    font-weight: 900;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    background: linear-gradient(45deg, #ff6f61, #d4fc79);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 8px solid white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Glow effect */
+}
+
+.download-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    transition: background 0.3s, color 0.3s;
+}
+
+.download-button:hover {
+    background: white;
+    color: #ff6f61;
+}
+
+.info-section {
+    text-align: left;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    background: #111;
+}
+
+h1, h2, h3 {
+    color: #ff6f61;
+}
